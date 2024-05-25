@@ -1,0 +1,147 @@
+body{
+    box-sizing: content-box;
+}
+              /* Navigation bar */
+.bar{
+    background-color: #333;
+    border-radius: 2px;
+}
+
+
+
+.navigation{
+    display: flex;
+    gap: 15px;
+}
+
+.title{
+    justify-content: flex-start;
+}
+
+.list{
+    justify-content: flex-end;
+    padding-left: 800px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin:  2px;
+    
+}
+
+ul li{
+    text-decoration: none;
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Poetsen One;
+    color: #333;
+}
+
+.game{
+    background-color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 60px;
+    display: inline;
+    padding: 5px;
+}
+
+.console{
+    width: 20px;
+    
+}
+
+.head{
+    font-family: Acme;
+    padding-left: 10px;
+    color: aliceblue;
+    align-items: center;
+    font-size: 25px;
+}
+
+/* ------------------------------------------------------------- */
+                 /* home section */
+
+.eyobelliver{
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.liver{
+    background-color: #333;
+    border-radius: 100%;
+    justify-content: flex-start;
+    padding: 50pxss;
+    width: 160px;
+}
+
+.photo{
+    display: flex;
+    padding: 50px;
+    
+    
+}
+
+.head1{
+    color: #333;
+    font-family: Anek Telugu;
+    font-size: 60px;
+}
+
+
+                      /* What we build */
+
+.biuld{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}                
+
+.web{
+    background-color: #333;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+
+.image{
+    background-color: aliceblue;
+    border-radius: 100%;
+    align-items: center;
+    width: 60px;
+    
+}
+
+.headtitle{
+    text-align: center;
+    font-family: Anek Telugu;
+    font-size: 50px;
+}
+
+p{
+    color: aliceblue;
+    font-family: Akaya Telivigala;
+}
+
+h4{
+    color: white;
+    font-family: Anek Telugu;
+}
+
+                 /* footer */
+ footer{
+    background-color: #333;
+    padding: 25px;
+    margin: auto;
+ }           
+
+
+ .foot{
+    text-align: center;
+ }
